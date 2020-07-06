@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".InstructionsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:id="@+id/txv_toolbar_title"
+            android:textSize="20sp"
+            android:text="@string/instructions"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:background="@drawable/shapertext"
+            android:textColor="#FF0000"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/one" />
+
+        <View
+            android:id="@+id/v2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/t2"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_below="@id/v2"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapertext"
+            android:textColor="#FF0000"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/two" />
+
+        <View
+            android:id="@+id/v3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/t3"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_below="@id/v3"
+            android:layout_marginTop="10dp"
+            android:textColor="#FF0000"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapertext"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/three" />
+
+
+        <View
+            android:id="@+id/v4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/t5"
+            android:layout_marginTop="10dp"
+            android:background="@color/grey" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_below="@id/v4"
+            android:background="@drawable/shapebutton"
+            android:layout_centerInParent="true"
+            android:text="@string/next"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

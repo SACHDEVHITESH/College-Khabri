@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">MarvelApp</string>
+    <string name="app_name">College Khabari</string>
+    <string name="instructions">Instructions</string>
+    <string name="one">1) You can Record and Upload your Video using the Upload Video Button </string>
+    <string name="two">2) You can see all your Uploaded video by clicking Video Library Button</string>
+    <string name="three">3) You can Logout by clicking on the Logout Button</string>
+    <string name="logout">Logout</string>
+    <string name="phoneQuestion">May I ask your phone number?</string>
+    <string name="phoneHint">Double Tap to detect the number or enter number using +91</string>
+    <string name="Continue">Continue</string>
+    <string name="Wait">Wait for the code I sent You</string>
+    <string name="otp">OTP</string>
+    <string name="signin">Sign In</string>
+    <string name="resend">Resend OTP</string>
+    <string name="upload">Upload Video</string>
+    <string name="VIEW">Video Library</string>
+    <string name="next">NEXT</string>
+
 </resources>

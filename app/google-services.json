@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "375385075035",
+    "firebase_url": "https://marvelapp-83533.firebaseio.com",
+    "project_id": "marvelapp-83533",
+    "storage_bucket": "marvelapp-83533.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375385075035:android:e2ac0b35295c86fdaafe7e",
+        "android_client_info": {
+          "package_name": "com.hitesh.marvelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375385075035-hdr4g90266tgilng6127uhm13q34aak9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hitesh.marvelapp",
+            "certificate_hash": "8f65b1b5ecf1eaa73e80503d577692ba70eca88b"
+          }
+        },
+        {
+          "client_id": "375385075035-hgm2ssq2sfe2uturn1g21kuclotgmg6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ0ymiLVecJojisE7gAvqV-5Leols8ynI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375385075035-hgm2ssq2sfe2uturn1g21kuclotgmg6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
